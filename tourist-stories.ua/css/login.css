@@ -1,0 +1,236 @@
+body{
+	height: 680px;
+	background-image: url('../img/banner1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	font-family: "RalewayRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+}
+
+.form-horizontal{
+ margin-top: 100px;
+ background: #fff;
+ padding-bottom: 10px;
+ border-radius: 15px;
+ text-align: center;
+}
+.form-horizontal .heading{
+ display: block;
+ font-size: 30px;
+ font-weight: 500;
+ padding: 35px 0;
+ border-bottom: 1px solid #f0f0f0;
+ margin-bottom: 20px;
+}
+.form-horizontal .form-group{
+ padding: 0 40px;
+ margin: 0 0 20px 0;
+ position: relative;
+}
+.form-horizontal .form-control{
+ background: #f0f0f0;
+ border: none;
+ border-radius: 20px;
+ box-shadow: none;
+ padding: 0 20px 0 45px;
+ height: 40px;
+ transition: all 0.3s ease 0s;
+}
+.form-horizontal .form-control:focus{
+ background: #e0e0e0;
+ box-shadow: none;
+ outline: 0 none;
+}
+.form-horizontal .form-group i{
+ position: absolute;
+ top: 12px;
+ left: 60px;
+ font-size: 17px;
+ color: #c8c8c8;
+ transition : all 0.5s ease 0s;
+}
+.form-horizontal .form-control:focus + i{
+ color: #00b4ef;
+}
+.form-horizontal .fa-question-circle{
+ display: inline-block;
+ position: absolute;
+ top: 12px;
+ right: 60px;
+ font-size: 20px;
+ color: #808080;
+ transition: all 0.5s ease 0s;
+}
+.form-horizontal .fa-question-circle:hover{
+ color: #000;
+}
+.form-horizontal .main-checkbox{
+ float: left;
+ width: 20px;
+ height: 20px;
+ background: #11a3fc;
+ border-radius: 50%;
+ position: relative;
+ margin: 5px 0 0 5px;
+ border: 1px solid #11a3fc;
+}
+.form-horizontal .main-checkbox label{
+ width: 20px;
+ height: 20px;
+ position: absolute;
+ top: 0;
+ left: 0;
+ cursor: pointer;
+}
+.form-horizontal .main-checkbox label:after{
+ content: "";
+ width: 10px;
+ height: 5px;
+ position: absolute;
+ top: 5px;
+ left: 4px;
+ border: 3px solid #fff;
+ border-top: none;
+ border-right: none;
+ background: transparent;
+ opacity: 0;
+ -webkit-transform: rotate(-45deg);
+ transform: rotate(-45deg);
+}
+.form-horizontal .main-checkbox input[type=checkbox]{
+ visibility: hidden;
+}
+.form-horizontal .main-checkbox input[type=checkbox]:checked + label:after{
+ opacity: 1;
+}
+.form-horizontal .text{
+ float: left;
+ margin-left: 7px;
+ line-height: 20px;
+ padding-top: 5px;
+ text-transform: capitalize;
+}
+.form-horizontal .btn{
+ float: right;
+ font-size: 14px;
+ color: #fff;
+ background: #00b4ef;
+ border-radius: 30px;
+ padding: 10px 25px;
+ border: none;
+ text-transform: capitalize;
+ transition: all 0.5s ease 0s;
+}
+@media only screen and (max-width: 479px){
+ .form-horizontal .form-group{
+ padding: 0 25px;
+ }
+ .form-horizontal .form-group i{
+ left: 45px;
+ }
+ .form-horizontal .btn{
+ padding: 10px 20px;
+ }
+}
+
+.fa-lock-error{
+	margin:auto;
+}
+
+#form-success{
+    width: auto;
+    color: white;
+    background-color: #68AAB2;
+    border: 1px solid #C5C9C2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 0;
+}
+#form-error{
+    width: auto;
+    font:bold 14px sans-serif;
+    color: red;
+    background-color: #fff;
+    border: 1px solid #CE8787;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#msgerror{
+    width: auto;
+    font:bold 14px sans-serif;
+    color: red;
+    background-color: white;
+    border: 1px solid #CE8787;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.button{
+    margin-top: 10px;
+border: solid 1px #06B8F3;
+	background: #00B4EF;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00CBF4), to(#06B8F3));
+	background: -moz-linear-gradient(top,  #00CBF4,  #06B8F3);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00CBF4', endColorstr='#06B8F3');
+	color: #fff;
+padding: 7px 12px;
+-webkit-border-radius:4px;
+   -moz-border-radius:4px;
+        border-radius:4px;
+float: right;
+cursor: pointer;
+}
+
+
+.button:hover{
+background: #06B8F3;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00AFF4), to(#00A3E4));
+	background: -moz-linear-gradient(top,  #00AFF4,  #00A3E4);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00AFF4', endColorstr='#00A3E4');
+} 
+
+.menu{
+    margin-top: 20px;
+	list-style-type: none;
+}
+
+.menu li{
+	display: inline-block;
+	padding: 0 30px;
+}
+
+.menu li a{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'RalewayBold', sans-serif; 
+}
+
+.menu li a:hover, .menu li a:focus{
+	text-decoration: none;
+	color: #68AAB2;
+}
+
+
+nav{
+	height: 94px;
+	line-height: 94px; /*высота строки*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	z-index: 9999;
+}
+
+
+
+
+
+

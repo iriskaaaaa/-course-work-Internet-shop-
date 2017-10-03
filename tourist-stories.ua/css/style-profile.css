@@ -1,0 +1,367 @@
+body{
+	font-family: "RalewayRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+}
+
+
+/*HEADER*/
+header{
+	height: 480px;
+	background-image: url('../img/banner1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+nav{
+	height: 94px;
+	line-height: 94px; /*высота строки*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	z-index: 9999;
+}
+
+.menu{
+	list-style-type: none;
+}
+
+.menu li{
+	display: inline-block;
+	padding: 0 30px;
+}
+
+.menu li a{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'RalewayBold', sans-serif; 
+}
+
+.menu li a:hover, .menu li a:focus{
+	text-decoration: none;
+	color: #68AAB2;
+}
+
+.top_line{
+	height: 1px;
+	background: #9CC9CE;  
+}
+.line1{
+	height: 2px;
+	background: #9CC9CE;
+	margin-top:0px;
+}
+
+.line2{
+	margin-top:90px;
+	height: 2px;
+	background: #9CC9CE;
+	position: relative;
+}
+
+.tittle_block{
+	color: #fff;
+	text-align:center;
+	margin-top: 150px;
+}
+.tittle_block h1{
+	font-size: 50px;
+	font-family: 'RalewayBold', bold; 
+	margin-bottom: 30px;
+}
+
+.tittle_block p{
+	font-size: 18px;
+	margin-bottom: 50px;
+	line-height: normal;
+
+}
+
+/*Сортировка*/
+.text_sort{  
+margin-top: 25px;
+font-family: "RalewayRegular", sans-serif;
+font-size: 18px;
+font-weight: bold;
+color: #245681;
+}
+.text_sort_profile{  
+margin-top: 25px;
+font-family: "RalewayRegular", sans-serif;
+font-size: 18px;
+font-weight: bold;
+color: #245681;
+text-align: center;
+}
+
+.text_sort_status{  
+margin-top: 25px;
+font-family: "RalewayRegular", sans-serif;
+font-size: 15px;
+font-weight: bold;
+color: #245681;
+text-align: left;
+}
+.sort{
+	margin-top: 15px; 
+
+}
+.contain h1{
+	margin-top: 100px;
+}
+
+#search_form{
+	margin-top: 25px;
+}
+
+/*Story*/
+
+.story{
+	padding: 10px;
+
+}
+
+
+.story_block {
+    display:inline-block;   
+    position:relative;
+}
+
+.example_text {
+    
+    display:block;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;  
+    color:#fff;     
+    padding:10px;
+    background-color:rgba(0,0,0,.3);
+ 
+   
+}
+
+.story_block h5 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+.story_block span,
+.story_block p
+.story_block a {
+    font-size: 14px; 
+}
+.text{
+    float:right;
+    color:#fff;
+}
+
+.delete{
+    float:left;
+    color:#fff;
+}
+
+.story_block a:hover img{
+	border: 2px solid #fff;
+}
+
+
+/*New Story*/
+
+.new_story{
+	
+	margin-top: 65px;
+
+}
+
+
+.new_story_block {
+    display:inline-block;   
+    position:relative;
+}
+
+
+.new_story_block h5,
+.new_story_block p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 0.5em;
+}
+
+.new_story_block a:hover img{
+	border: 2px solid #fff;
+}
+/*filtr-city*/
+
+.filtr-city{
+	margin-top: 70px; 
+}
+
+/*FOOTER*/
+.footer{
+	padding: 15px;
+	margin-top:20px;
+}
+
+/*	HOSTOTY_FORM*/
+.header_history_form{
+	height: 100px;
+	background-image: url('../img/banner1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+
+/*LOGIN*/
+.contain_login{
+	height: auto;
+	background-image: url('../img/banner1.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+/*STORY_FORM*/
+.button{
+    font-size: 18px;
+border: solid 1px #06B8F3;
+	background: #00B4EF;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00CBF4), to(#06B8F3));
+	background: -moz-linear-gradient(top,  #00CBF4,  #06B8F3);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00CBF4', endColorstr='#06B8F3');
+	color: #fff;
+padding: 7px 12px; 
+-webkit-border-radius:4px;
+   -moz-border-radius:4px;
+        border-radius:4px;
+cursor: pointer;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+
+.button:hover{
+background: #06B8F3;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00AFF4), to(#00A3E4));
+	background: -moz-linear-gradient(top,  #00AFF4,  #00A3E4);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00AFF4', endColorstr='#00A3E4');
+} 
+
+.avtor-img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/*WORKS SECTION*/
+.work_block{
+    margin-top: 15px;
+    margin-bottom: 15px;
+	position: relative;
+}
+.image_wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.work_descr{
+	color: #fff;
+	text-align: center;
+	margin: auto;
+}
+
+.form-horizontal .main-checkbox{
+ float: left;
+ width: 20px;
+ height: 20px;
+ background: #11a3fc;
+ border-radius: 50%;
+ position: relative;
+ margin: 5px 0 0 5px;
+ border: 1px solid #11a3fc;
+}
+.form-horizontal .main-checkbox label{
+ width: 20px;
+ height: 20px;
+ position: absolute;
+ top: 0;
+ left: 0;
+ cursor: pointer;
+}
+.form-horizontal .main-checkbox label:after{
+ content: "";
+ width: 10px;
+ height: 5px;
+ position: absolute;
+ top: 5px;
+ left: 4px;
+ border: 3px solid #fff;
+ border-top: none;
+ border-right: none;
+ background: transparent;
+ opacity: 0;
+ -webkit-transform: rotate(-45deg);
+ transform: rotate(-45deg);
+}
+.form-horizontal .main-checkbox input[type=checkbox]{
+ visibility: hidden;
+}
+.form-horizontal .main-checkbox input[type=checkbox]:checked + label:after{
+ opacity: 1;
+}
+
+
+#title-review{
+    font: 14px sans-serif;
+    margin-right: 50px;
+    color: #8C8C8C;
+}
+
+#send-pass {
+  display: none;
+}
+
+#send-pass input{
+    width: 234px;
+    height: 25px;
+    margin-right: 50px;
+    margin-top: 15px;
+    border: 1px solid #DBDBDB;
+}
+
+#label-name{
+    font: 14px sans-serif;
+    margin-right: 10px;
+}
+
+#reload-img{
+    display: none;
+    margin-top: 35px;
+    margin-left: 295px;
+}
+li {
+list-style-type: none; /* Убираем маркеры */
+}
+
+
+#button-send-pass{
+    cursor: pointer;
+    background: url(/img/button-send.png) no-repeat;
+    width: 81px;
+    height: 31px;
+    margin-top: 25px;
+    margin-left: 270px;
+}
+#button-send-pass:active{
+    background: url(/img/button-send-active.png) no-repeat;
+}
+
