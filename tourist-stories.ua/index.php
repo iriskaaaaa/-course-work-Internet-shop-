@@ -119,7 +119,7 @@ $res = mysql_query("SELECT name_city, id_city FROM city  WHERE id_country = '$id
 <p class="navbar-text text_sort">Вид отдыха</p>
 <div class="accordion">
 <ul>
-  <li><a href="index.php?type_trip=all_type"><strong>Все виды:</strong></a></li>
+  <li><a href="index.php?type_trip=all_type"><strong>Все виды</strong></a></li>
   <li><a href="filtr_city.php?type_trip=active"><strong>Активный</strong></a></li>
   <li><a href="filtr_city.php?type_trip=passive"><strong>Пассивный</strong></a></li>
   <li><a href="filtr_city.php?type_trip=family"><strong>Семейный</strong></a> </li>
